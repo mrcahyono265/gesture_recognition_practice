@@ -1,0 +1,22 @@
+# Ignore all dataset folders anywhere in repo
+**/dataset/
+
+# Ignore model weights
+*.h5
+*.pt
+*.pth
+*.pkl
+*.onnx
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore logs
+*.log
+logs/
